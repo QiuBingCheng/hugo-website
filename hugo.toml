@@ -1,7 +1,7 @@
 baseURL = "http://localhost:1313"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "BingCheng"
+title = "邱秉誠 (BingCheng)"
 pagination.pagerSize = 3
 theme = "hulga"
 
@@ -24,7 +24,7 @@ theme = "hulga"
   subtitle = "Share my learning journey"
 
   # enable katex rendering on every post page, default false
-  math = false
+  math = true
  
   # enable showing content summary below post title in home page, default false
   showSummary = true
