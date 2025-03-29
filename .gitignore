@@ -25,6 +25,7 @@ _testmain.go
 public
 themes
 resources
+node_modules
 
 assets/jsconfig.json
 .DS_Store
