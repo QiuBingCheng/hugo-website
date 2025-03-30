@@ -36,7 +36,7 @@ theme = "hulga"
   toc = true
 
   # enable TOC auto collapse, default false
-  autoCollapseToc = true
+  autoCollapseToc = false
 
   # enable prefers-color-scheme:dark, default false
   darkMedia = true

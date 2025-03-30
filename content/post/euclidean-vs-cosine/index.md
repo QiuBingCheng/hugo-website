@@ -1,7 +1,7 @@
 +++
 author = "Bingcheng"
 title = "歐氏距離與餘弦相似度的比較"
-date = "2020-02-09"
+date = "2020-02-11"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
     "相似度"
