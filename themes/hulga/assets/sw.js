@@ -6,6 +6,7 @@ const BASE_CACHE_FILES = [
   '/css/toc.min.css',
   '/css/katex.min.css',
   '/css/monokai.min.css',
+  '/css/github.css',
   '/js/tocbot.min.js',
   '/js/anchor.min.js',
   '/js/auto-render.min.js',

@@ -64,7 +64,6 @@ theme = "hulga"
 [markup]
   [markup.highlight]
     noClasses = false
-
 [menu]
   [[menu.main]]
     identifier = "index"
