@@ -21,8 +21,14 @@
         <div id="search"></div>
         <script>
             window.addEventListener('DOMContentLoaded', (event) => {
-                new PagefindUI({ element: "#search", showSubResults: true });
-            });
+                new PagefindUI({
+                  element: "#search", showSubResults: true,
+                  processResultItem: (item) => {
+                    delete item.image;  // 移除縮圖屬性
+                    return item;
+                  }
+                });
+              });
         </script>
       </div>
     </div>
