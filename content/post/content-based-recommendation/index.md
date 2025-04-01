@@ -137,4 +137,4 @@ def get_the_most_similar_users(movie_id, user_movie_matrix,num):
 本篇實作經過極度簡化，在實務上的處理必然複雜許多，影片特徵不只類型，還有導演、演員、語言、得獎紀錄等，但是核心概念相差無幾，**人的特徵就是觀看紀錄的影片特徵取平均的結果，在相同維度下人跟影片便容易計算相似度，進而洗出欲推薦的影片/用戶名單**，往後會逐一介紹其他常見的推薦系統。
 
 **資料集/完整代碼：**
-[Github Code](https://github.com/QiuBingCheng/MediumArticle/tree/main/Recommendation%20System?source=post_page-----b372769939af---------------------------------------)
+[Github Code](https://github.com/QiuBingCheng/MediumArticle/blob/main/Recommendation%20System/content_based_system.py)
