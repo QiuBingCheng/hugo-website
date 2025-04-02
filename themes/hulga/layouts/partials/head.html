@@ -1,4 +1,5 @@
 <head>
+  {{ partial "google-analytics.html" . }}
   {{- if .Site.Params.darkToggle -}}
   <script>const t = localStorage.getItem('bulma-theme'); if (t !== null) { document.documentElement.setAttribute('data-theme', t); } </script>
   {{- end -}}
