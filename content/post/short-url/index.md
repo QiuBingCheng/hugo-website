@@ -7,7 +7,7 @@ tags = [
     "短網址"
 ]
 categories = [
-    "網站設計"
+    "程式設計"
 ]
 series = ["Themes Guide"]
 +++

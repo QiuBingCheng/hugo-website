@@ -7,7 +7,7 @@ tags = [
     "網路爬蟲"
 ]
 categories = [
-    "資料分析"
+    "程式設計"
 ]
 series = ["Themes Guide"]
 +++

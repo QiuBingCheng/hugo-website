@@ -64,6 +64,10 @@ theme = "hulga"
 [markup]
   [markup.highlight]
     noClasses = false
+    
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [menu]
   [[menu.main]]
     identifier = "index"
