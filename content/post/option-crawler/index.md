@@ -5,7 +5,8 @@ date = "2020-08-06"
 description = ""
 tags = [
     "網路爬蟲",
-    "openpyx"
+    "openpyx",
+    "Python"
 ]
 categories = [
     "程式設計"

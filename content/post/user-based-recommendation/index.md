@@ -1,11 +1,12 @@
 +++
 author = "Bingcheng"
-title = "以 Python 實現推薦系統的協同過濾算法 (User-based Collaborative Filtering)"
+title = "實現推薦系統的協同過濾算法 (User-based Collaborative Filtering)"
 date = "2020-07-04"
-description = "介紹推薦系統的協同過濾算法"
+description = "以 Python 實現推薦系統的協同過濾算法"
 tags = [
     "推薦系統",
-    "基於使用者推薦"
+    "基於使用者推薦",
+    "Python"
 ]
 categories = [
     "資料分析"

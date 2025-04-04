@@ -1,11 +1,12 @@
 +++
 author = "Bingcheng"
-title = "以Python打造簡單實用的電影推薦系統 (Content-based Recommendation)"
+title = "簡單實用的電影推薦系統 (Content-based Recommendation)"
 date = "2020-02-09"
 description = "實現用戶找影片、影片找用戶的非典型推薦系統"
 tags = [
     "推薦系統",
-    "基於內容推薦"
+    "基於內容推薦",
+    "Python"
 ]
 categories = [
     "資料分析"

@@ -4,7 +4,8 @@ title = "最香的爬蟲教學文 - foodpanda"
 date = "2020-07-08"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
-    "網路爬蟲"
+    "網路爬蟲",
+    "Python"
 ]
 categories = [
     "程式設計"
