@@ -4,11 +4,12 @@ title = "假設檢定基礎觀念"
 date = "2020-08-18"
 description = "用一個簡單實例，引領讀者逐步窺探假設檢定的基礎觀念。"
 tags = [
+    "統計學",
     "假設檢定",
     "機率分布"
 ]
 categories = [
-    "統計學"
+    "資料分析"
 ]
 series = ["Themes Guide"]
 +++
