@@ -3,6 +3,15 @@
   <div class="container">
     <div class="columns">
       <div class="column is-10 is-offset-1">
+        <div style="padding-left:0.5rem;margin-bottom: 0.5rem;">
+        <a href="#" id="subscribeLink">💌 訂閱最新文章通知</a>
+      </div>
+      <div id="subscribeModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); justify-content: center; align-items: center; z-index: 9999;">
+        <div style="background: #fff; padding: 20px; width: 90%; max-width: 600px; position: relative;">
+          <button id="closeModal" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 20px;">&times;</button>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqQt4NKZmovmyoC-VvTbzzw5WfSjajQw_wgOg5nedniFD0Hg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中...</iframe>
+        </div>
+      </div>
         <div class="columns">
           <div class="column is-8">
             <div class="post-lists">
@@ -103,3 +112,22 @@
     </div>
   </div>
 </section>
+<script>
+  // 顯示彈出視窗
+  document.getElementById('subscribeLink').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('subscribeModal').style.display = 'flex';
+  });
+
+  // 關閉彈出視窗
+  document.getElementById('closeModal').addEventListener('click', function() {
+    document.getElementById('subscribeModal').style.display = 'none';
+  });
+
+  // 如果用戶點擊彈出視窗外部，也關閉視窗
+  window.addEventListener('click', function(e) {
+    if (e.target === document.getElementById('subscribeModal')) {
+      document.getElementById('subscribeModal').style.display = 'none';
+    }
+  });
+</script>
