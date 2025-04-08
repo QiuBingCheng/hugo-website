@@ -70,6 +70,19 @@ body {
   font-weight: 700;
 }
 
+/* 讓程式碼區塊超出寬度時可以橫向捲動 */
+pre {
+  overflow-x: auto;
+  white-space: pre;
+}
+
+pre code {
+  white-space: pre;
+  overflow-x: auto;
+  display: block;
+  word-break: normal;
+}
+
 /* post header */
 .post-cat a {
   color: currentColor;

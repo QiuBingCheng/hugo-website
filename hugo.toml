@@ -64,6 +64,7 @@ theme = "hulga"
 [markup]
   [markup.highlight]
     noClasses = false
+    linenos = true
     
   [markup.goldmark]
     [markup.goldmark.renderer]

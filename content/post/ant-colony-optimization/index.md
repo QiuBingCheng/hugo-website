@@ -1,6 +1,6 @@
 +++
 author = "Bingcheng"
-title = "實作蟻群演算法 (Ant Colony Optimization, ACO) 並解決旅行商人問題(Traveling Salesman Problem, TSP)"
+title = "實作蟻群演算法 (Ant Colony Optimization, ACO) 並解決旅行商人問題 (Traveling Salesman Problem, TSP)"
 date = "2021-01-26"
 description = "以 Python 實作蟻群演算法"
 tags = [
