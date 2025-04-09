@@ -55,6 +55,8 @@ body {
 /*syntax highlight label*/
 .highlight {
   position: relative;
+  border: 1px solid;
+  border-color:rgb(196, 189, 189);
 }
 
 .highlight:not(:last-child) {
