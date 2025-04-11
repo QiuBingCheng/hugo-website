@@ -6,6 +6,10 @@ pagination.pagerSize = 3
 theme = "hulga"
 
 [params]
+
+  math_inline = true
+  math_block = true
+
   # show in HTML meta tag
   author = "BingCheng"
   keywords = "Blog"
