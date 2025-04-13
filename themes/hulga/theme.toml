@@ -17,3 +17,7 @@ features = ['bulma', 'fast', 'toc', 'table of contents', 'dark mode', 'archives'
 [author]
   name = 'wlh'
   homepage = 'https://github.com/wlh320'
+
+[params.math]
+enable = true
+use = 'mathjax'

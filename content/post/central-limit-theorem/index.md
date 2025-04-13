@@ -32,9 +32,9 @@ $$ Z=\frac{(X-\mu)} {\sigma} $$
 
 $$
 \begin{aligned}
-\mu_{\bar{X}} &= E(\bar{X}) = E\left(\frac{x_1 + x_2 + x_3 + \cdots + x_n}{n} \right) \\
-&= \frac{1}{n} \left( E(x_1) + E(x_2) + \cdots + E(x_n) \right) \\
-&= \frac{1}{n} (n \mu) \\
+\mu_{\bar{X}} &= E(\bar{X}) = E\left(\frac{x_1 + x_2 + x_3 + \cdots + x_n}{n} \right) \\\
+&= \frac{1}{n} \left( E(x_1) + E(x_2) + \cdots + E(x_n) \right) \\\
+ &= \frac{1}{n} (n \mu) \\\
 &= \mu
 \end{aligned}
 $$
@@ -44,12 +44,12 @@ $$
 **$\bar{X}$ 的變異數**
 
 $$
-\begin{align*}
-\sigma^2_{\bar{X}} &= Var\left( \frac{x_1 + x_2 + x_3 + \cdots + x_n}{n} \right) \\
-&= \frac{1}{n^2} Var(x_1 + x_2 + x_3 + \cdots + x_n) \\
-&= \frac{1}{n^2} (n \sigma^2) \\
+\begin{aligned}
+\sigma^2_{\bar{X}} &= Var\left( \frac{x_1 + x_2 + x_3 + \cdots + x_n}{n} \right) \\\
+&= \frac{1}{n^2} Var(x_1 + x_2 + x_3 + \cdots + x_n) \\\
+&= \frac{1}{n^2} (n \sigma^2) \\\
 &= \frac{\sigma^2}{n}
-\end{align*}
+\end{aligned}
 $$
 
 經過上述推導，明白 $\bar{X}$ 會服從母體平均值為 $μ$、母體標準差為 $σ/\sqrt{n}$ 的常態分佈。因此 z-score 重新表示如下：
