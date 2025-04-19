@@ -6,6 +6,7 @@ date = "2021-03-14"
 description = "介紹衡量回歸模型表現的兩個指標"
 tags = [
     "統計學",
+    "線性回歸",
     "Python"
 ]
 categories = [
