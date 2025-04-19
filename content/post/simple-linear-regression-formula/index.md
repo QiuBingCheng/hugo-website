@@ -1,7 +1,7 @@
 
 +++
 author = "Bingcheng"
-title = "回歸分析 (Regression analysis) 的 R平方 (R squared) 與 調整後R平方 (Adjusted R squared)"
+title = "簡單線性回歸 (Simple Linear Regression) 的公式推導 (Formula Derivation)"
 date = "2021-03-14"
 description = "介紹衡量回歸模型表現的兩個指標"
 tags = [
